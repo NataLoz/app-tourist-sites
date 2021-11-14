@@ -3,16 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+
+
+
+    >
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/Times_Square_New_York_USA"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="40dp" />
 
     <TextView
+        android:id="@+id/nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center_vertical"
+        android:text="nombre"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="40dp" />
 
+    <TextView
+        android:id="@+id/descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="la descripcion"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="71dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
