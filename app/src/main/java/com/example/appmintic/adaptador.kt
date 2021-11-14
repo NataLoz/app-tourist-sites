@@ -48,10 +48,11 @@ class adaptador(items: ArrayList<ciudad>): RecyclerView.Adapter<adaptador.ViewHo
         var descripcion : TextView?=null
 
         init {
-/*
-            foto=Vista.
-            descripcion = laVista.descripcion
-      */
+
+//            foto=Vista
+
+  //          descripcion = Vista.descripcion
+
         }
     }
 

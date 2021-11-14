@@ -11,29 +11,33 @@
 
     >
 
-    <ImageView
-        android:id="@+id/imagen"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:srcCompat="@drawable/Times_Square_New_York_USA"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ciudades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/nombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="nombre"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="40dp" />
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/Times_Square_New_York_USA"
+            tools:ignore="ContentDescription,MissingConstraints" />
 
-    <TextView
-        android:id="@+id/descrip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="la descripcion"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="71dp" />
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="nombre"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/descrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="la descripcion"
+            tools:ignore="MissingConstraints" />
+    </androidx.recyclerview.widget.RecyclerView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
