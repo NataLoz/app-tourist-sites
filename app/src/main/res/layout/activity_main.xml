@@ -20,7 +20,7 @@
             android:id="@+id/imagen"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/Times_Square_New_York_USA"
+            app:srcCompat="@drawable/times_square_new_york"
             tools:ignore="ContentDescription,MissingConstraints" />
 
         <TextView
@@ -28,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:text="nombre"
+            android:text="Central Park
+"
             tools:ignore="MissingConstraints" />
 
         <TextView

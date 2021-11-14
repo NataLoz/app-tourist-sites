@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        app:srcCompat="@drawable/Times_Square_New_York_USA"
+        app:srcCompat="@drawable/times_square_new_york"
+        tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        tools:layout_editor_absoluteY="40dp" />
 
     <TextView
         android:id="@+id/nombre"
