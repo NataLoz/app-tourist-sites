@@ -1,11 +1,6 @@
 package com.example.appmintic
 
-class ciudad(nombre:String, foto:Int) {
-  var nombre: String =""
-    var foto: Int=0
+import android.graphics.drawable.Drawable
 
-    init{
-        this.nombre=nombre
-        this.foto= foto
-    }
-}
+data class ciudad(val nombre:String,val  foto:Int,val descripcion:String,val puntuacion:String)
+
