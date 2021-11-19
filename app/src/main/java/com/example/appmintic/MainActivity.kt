@@ -1,10 +1,14 @@
 package com.example.appmintic
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.appmintic.databinding.ActivityMainBinding
+import com.example.appmintic.MainActivity
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.item_ciudad.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,6 +33,15 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initRecycler()
+
+        botonIda.setOnClickListener{
+
+            val intento: Intent = Intent(this, MainActivity2::class.java)
+
+            startActivity(intento)
+
+        }
+
     }
 
     fun initRecycler(){

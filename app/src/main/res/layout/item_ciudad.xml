@@ -5,8 +5,7 @@
     android:orientation="horizontal"
 
     android:layout_width="match_parent"
-    android:layout_height="150dp">
-
+    android:layout_height="180dp">
 
 
     <ImageView
@@ -17,16 +16,17 @@
         tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="40dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="166dp"
         android:orientation="vertical">
 
 
         <TextView
             android:id="@+id/elnombre"
             android:layout_width="225dp"
-            android:layout_height="65dp"
+            android:layout_height="49dp"
             android:gravity="center_vertical"
             android:text="nombre"
             tools:ignore="MissingConstraints"
@@ -35,8 +35,8 @@
 
         <TextView
             android:id="@+id/descrip"
-            android:layout_width="225dp"
-            android:layout_height="76dp"
+            android:layout_width="208dp"
+            android:layout_height="51dp"
             android:gravity="center_vertical"
             android:text="la descripcion"
             tools:ignore="MissingConstraints"
@@ -50,10 +50,15 @@
             android:text="puntuacion:" />
 
 
+            <Button
+                android:id="@+id/botonIda"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:text="Button" />
 
-
-
-</LinearLayout>
 
 
     </LinearLayout>
+
+
+</LinearLayout>
