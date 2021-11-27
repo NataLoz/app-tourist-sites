@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AppMintic"
 include ':app'
+include ':proyectosemtres'
