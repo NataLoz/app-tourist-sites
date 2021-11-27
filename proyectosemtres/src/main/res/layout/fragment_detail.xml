@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:text="@string/nombre_new_york"
+            android:text="@string/nombre1_new_york"
             app:layout_constraintStart_toEndOf="@+id/label_alias_text_view"
             app:layout_constraintTop_toBottomOf="@+id/picture_image_view"/>
 
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:text="@string/nombre"
+            android:text="@string/nombrepoint"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/label_alias_text_view"/>
 
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
-            android:text="@string/central_park"
+            android:text="@string/central2_park"
             app:layout_constraintStart_toEndOf="@+id/label_city_text_view"
             app:layout_constraintTop_toBottomOf="@+id/label_alias_text_view"/>
 

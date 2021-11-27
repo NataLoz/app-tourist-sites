@@ -15,7 +15,7 @@
     </string-array>
     <string name="masculino">Masculino</string>
     <string name="nombre">Nombre:</string>
-    <string name="nombre_new_york">New York</string>
+    <string name="nombre1_new_york">New York</string>
     <string name="ubicacion">Ubicación:</string>
     <string name="ubicacion_central_park">Central Park es un parque urbano público situado en el distrito metropolitano de Manhattan, en la ciudad de Nueva York, Estados Unidos. El parque tiene forma rectangular y dimensiones aproximadas de 4000 x 800 m</string>
     <string name="registrar">Registrar</string>
@@ -25,10 +25,10 @@
     <string name="telequinesis">Telequinesis</string>
     <string name="velocidad">Super velocidad</string>
     <string name="ciudad">Ciudad</string>
-    <string name="nombre">Nombre</string>
-    <string name="central_park">Central Park</string>
+    <string name="nombrepoint">Nombre</string>
+    <string name="central2_park">Central Park</string>
     <string name="informacion_general">Información General</string>
-    <string name="infogral">Central Park es uno de los lugares turísticos en Nueva York en invierno más bonitos, época en la que está cubierto de nieve, también en otoño, momento en que sus praderas y árboles se tiñen de colores ocres y en primavera y verano, cuando el parque luce en todo su esplendor.
+    <string name="infogral">Central Park es uno de los lugares turísticos en Nueva York en invierno más bonitos, época en la que está cubierto de nieve, también en otoño, estación en que sus praderas y árboles se tiñen de colores ocres y en primavera y verano, cuando el parque luce en todo su esplendor.
     Con 340 hectáreas, unos 4 kilómetros de largo y 800 metros de ancho, este es uno de los mayores parques del planeta, el principal pulmón verde de la ciudad y junto con el Hyde Park de Londres, el parque urbano más famoso del mundo.
 </string>
     <string name="actividades">Actividades para hacer en Central Park</string>
