@@ -5,12 +5,17 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.gson.Gson
 import com.jmarti.proyectosemtres.databinding.FragmentListBinding
+import com.jmarti.proyectosemtres.model.Pointinterest
+import com.jmarti.proyectosemtres.model.PointinterestItem
 
 
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
+    private lateinit var pointInterestsAdapter: PointInterestsAdapter
+    private lateinit var listPointInterests: ArrayList<PointinterestItem>
 
 
     override fun onCreateView(
@@ -21,5 +26,21 @@ class ListFragment : Fragment() {
         return listBinding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        listPointInterests = loadMockPointInterestsFromJson()
+        pointInterestsAdapter = PointInterestsAdapter(listPointInterests, onItemClicked = {onPointInterestClicked(it)})
+    }
+
+    private fun onPointInterestClicked(pointinterest: PointinterestItem){
+        //TODO programar detail
+    }
+
+    private fun loadMockPointInterestsFromJson(): ArrayList<PointinterestItem>{
+        val pointInterestsString: String = context?.assets?.open("pointinterests.json")?.bufferedReader().use { it!!.readText()} //TODO queda pendiente reparar esta linea en los dos !!
+        val gson = Gson()
+        val pointInterestsList = gson.fromJson(pointInterestsString, Pointinterest::class.java)
+        return pointInterestsList
+    }
 
 }
