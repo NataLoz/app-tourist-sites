@@ -37,5 +37,20 @@
 </string>
     <string name="temperatura">Temperatura</string>
     <string name="temp">En New York City, Central Park, los veranos son calurosos, húmedos y mojados; los inviernos son muy frío, nevados y ventosos y está parcialmente nublado durante todo el año. Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifications">Notificaciones</string>
 
 </resources>

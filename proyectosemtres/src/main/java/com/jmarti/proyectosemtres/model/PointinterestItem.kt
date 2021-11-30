@@ -5,20 +5,22 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 data class PointinterestItem(
-    @SerializedName("alias")
-    val alias: String,
-    @SerializedName("city")
-    val city: String,
-    @SerializedName("facebook")
-    val facebook: String,
-    @SerializedName("height")
-    val height: Double,
     @SerializedName("name")
     val name: String,
     @SerializedName("occupation")
     val occupation: String,
-    @SerializedName("powers")
-    val powers: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("place")
+    val place: String,
+    @SerializedName("localization")
+    val localization: String,
+    @SerializedName("temperature")
+    val temperature: String,
+    @SerializedName("activities")
+    val activities: String,
+    @SerializedName("point")
+    val point: String,
+    @SerializedName("information")
+    val information: String
 ) : Serializable

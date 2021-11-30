@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.jmarti.proyectosemtres.databinding.FragmentListBinding
 import com.jmarti.proyectosemtres.model.Pointinterest
@@ -30,10 +32,17 @@ class ListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         listPointInterests = loadMockPointInterestsFromJson()
         pointInterestsAdapter = PointInterestsAdapter(listPointInterests, onItemClicked = {onPointInterestClicked(it)})
+
+        listBinding.pointinterestsRecyclerView.apply {
+            layoutManager = LinearLayoutManager(context)
+            adapter = pointInterestsAdapter
+            setHasFixedSize(false)
+        }
     }
 
     private fun onPointInterestClicked(pointinterest: PointinterestItem){
-        //TODO programar detail
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(pointinterest = pointinterest))
+        //findNavController().navigate(ListFragmentDirections.actionListFragmentToSettingsFragment())
     }
 
     private fun loadMockPointInterestsFromJson(): ArrayList<PointinterestItem>{

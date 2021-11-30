@@ -36,7 +36,7 @@
             tools:ignore="ContentDescription"/>
 
         <TextView
-            android:id="@+id/label_alias_text_view"
+            android:id="@+id/label_place_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,18 +47,18 @@
             app:layout_constraintTop_toBottomOf="@+id/picture_image_view" />
 
         <TextView
-            android:id="@+id/alias_text_view"
+            android:id="@+id/place_text_view"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:text="@string/nombre1_new_york"
-            app:layout_constraintStart_toEndOf="@+id/label_alias_text_view"
+            app:layout_constraintStart_toEndOf="@+id/label_place_text_view"
             app:layout_constraintTop_toBottomOf="@+id/picture_image_view"/>
 
         <TextView
-            android:id="@+id/label_city_text_view"
+            android:id="@+id/label_point_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,21 +66,21 @@
             android:layout_marginTop="16dp"
             android:text="@string/nombrepoint"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_alias_text_view"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_place_text_view"/>
 
         <TextView
-            android:id="@+id/city_text_view"
+            android:id="@+id/point_text_view"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:text="@string/central2_park"
-            app:layout_constraintStart_toEndOf="@+id/label_city_text_view"
-            app:layout_constraintTop_toBottomOf="@+id/label_alias_text_view"/>
+            app:layout_constraintStart_toEndOf="@+id/label_point_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/label_place_text_view"/>
 
         <TextView
-            android:id="@+id/label_occupation_text_view"
+            android:id="@+id/label_information_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,10 +88,10 @@
             android:layout_marginTop="52dp"
             android:text="@string/informacion_general"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_alias_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/label_place_text_view" />
 
         <TextView
-            android:id="@+id/occupation_text_view"
+            android:id="@+id/information_text_view"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,10 +100,10 @@
             android:text="@string/infogral"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_occupation_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/label_information_text_view" />
 
         <TextView
-            android:id="@+id/label_height_text_view"
+            android:id="@+id/label_activities_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,19 +111,19 @@
             android:layout_marginTop="8dp"
             android:text="@string/actividades"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/occupation_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/information_text_view" />
 
         <TextView
-            android:id="@+id/height_text_view"
+            android:id="@+id/activities_text_view"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/actividades_central_park"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_height_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/label_activities_text_view" />
 
         <TextView
-            android:id="@+id/label_facebook_text_view"
+            android:id="@+id/label_temperature_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -131,10 +131,10 @@
             android:layout_marginTop="8dp"
             android:text="@string/temperatura"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/height_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/activities_text_view" />
 
         <TextView
-            android:id="@+id/facebook_text_view"
+            android:id="@+id/temperature_text_view"
             style="@style/Texto_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -142,10 +142,10 @@
             android:layout_marginTop="8dp"
             android:text="@string/temp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_facebook_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/label_temperature_text_view" />
 
         <TextView
-            android:id="@+id/label_powers_text_view"
+            android:id="@+id/label_localization_text_view"
             style="@style/Texto_subtitulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -153,10 +153,10 @@
             android:layout_marginTop="8dp"
             android:text="@string/ubicacion"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/facebook_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/temperature_text_view" />
 
         <TextView
-            android:id="@+id/powers_text_view"
+            android:id="@+id/localization_text_view"
             style="@style/Texto_normal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/label_powers_text_view" />
+            app:layout_constraintTop_toBottomOf="@+id/label_localization_text_view" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

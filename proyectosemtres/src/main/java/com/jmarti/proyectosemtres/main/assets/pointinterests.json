@@ -1,62 +1,62 @@
 [
   {
     "name": "Central Park",
-    "powers": "Central Park es un parque urbano público situado en el distrito metropolitano de Manhattan, en la ciudad de Nueva York, Estados Unidos.",
-    "alias": "New York",
-    "city": "Central Park",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "Reporter",
-    "height": 1.85,
-    "urlPicture": "https://res.cloudinary.com/dpfhmcj7d/image/upload/v1637326013/superman_xhax4s.jpg"
+    "localization": "Central Park es un parque urbano público situado en el distrito metropolitano de Manhattan, en la ciudad de Nueva York, Estados Unidos.",
+    "place": "New York",
+    "point": "Central Park",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   },
   {
     "name": "Empire State",
-    "powers": "El Empire State Building es un rascacielos situado en la intersección de la Quinta Avenida y West 34th Street, en la ciudad de Nueva York",
-    "alias": "New York",
-    "city": "Empire State",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "CEO of Wayne Enterprises",
-    "height": 1.80,
-    "urlPicture": "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Batman_20190116_5c3fc4b40faec2.47318964.jpg"
+    "localization": "El Empire State Building es un rascacielos situado en la intersección de la Quinta Avenida y West 34th Street, en la ciudad de Nueva York",
+    "place": "New York",
+    "point": "Empire State",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   },
   {
     "name": "Estatua de la Libertad",
-    "powers": "La Estatua de La Libertad se encuentra en la isla de la Libertad al sur de la isla de Manhattan, junto a la desembocadura del río Hudson y cerca de la isla Ellis.",
-    "alias": "New York",
-    "city":"Estatua de la Libertad",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "Secretary",
-    "height": 1.80,
-    "urlPicture": "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_WonderWoman_20190116_5c3fc6aa51d0e3.49076914.jpg"
+    "localization": "La Estatua de La Libertad se encuentra en la isla de la Libertad al sur de la isla de Manhattan, junto a la desembocadura del río Hudson y cerca de la isla Ellis.",
+    "place": "New York",
+    "point":"Estatua de la Libertad",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   },
   {
     "name": "Times Square",
-    "powers": "El Times Square está situada en la esquina de la avenida Broadway y la Séptima Avenida. ",
-    "alias": "New York",
-    "city": "Times Square",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "Forensic scientist",
-    "height": 1.70,
-    "urlPicture": "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_Flash_20190116_5c3fcaaa18f0e8.03668117.jpg"
+    "localization": "El Times Square está situada en la esquina de la avenida Broadway y la Séptima Avenida. ",
+    "place": "New York",
+    "point": "Times Square",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   },
   {
     "name": "Wall Street",
-    "powers": "Wall Street es una calle de ocho cuadras de largo en el distrito financiero del Lower Manhattan en Nueva York. Va desde Broadway en el oeste hasta South Street y el East River en el este. ",
-    "alias": "New York",
-    "city":  "Wall Street",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "Test pilot",
-    "height": 1.73,
-    "urlPicture": "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_GreenLantern_20200721_5f173ad01724e2.92436411.jpg"
+    "localization": "Wall Street es una calle de ocho cuadras de largo en el distrito financiero del Lower Manhattan en Nueva York. Va desde Broadway en el oeste hasta South Street y el East River en el este. ",
+    "place": "New York",
+    "point":  "Wall Street",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   },
   {
     "name": "World Trade Center",
-    "powers": "Manhattan, Ciudad de Nueva York, Nueva York, Estados Unidos",
-    "alias": "New York",
-    "city": "World Trade Center",
-    "facebook": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
-    "occupation": "Test pilot",
-    "height": 1.73,
-    "urlPicture": "https://www.dccomics.com/sites/default/files/styles/character_thumb_160x160/public/Char_Profile_GreenLantern_20200721_5f173ad01724e2.92436411.jpg"
+    "localization": "Manhattan, Ciudad de Nueva York, Nueva York, Estados Unidos",
+    "place": "New York",
+    "point": "World Trade Center",
+    "temperature": "Durante el transcurso del año, la temperatura generalmente varía de -2 °C a 29 °C y rara vez baja a menos de -10 °C o sube a más de 34 °C.",
+    "information": "",
+    "activities": "",
+    "urlPicture": ""
   }
 ]

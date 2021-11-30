@@ -31,12 +31,12 @@ class PointInterestsAdapter(
     class PointinterestViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
         private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
-        private var aliasTextView: TextView = itemView.findViewById(R.id.alias_text_view)
+        private var placeTextView: TextView = itemView.findViewById(R.id.place_text_view)
         private var pictureImageView: ImageView = itemView.findViewById(R.id.picture_image_view)
 
         fun bind(pointinterest: PointinterestItem){
             nameTextView.text = pointinterest.name
-            aliasTextView.text = pointinterest.alias
+            placeTextView.text = pointinterest.place
             Picasso.get().load(pointinterest.urlPicture).into(pictureImageView)
         }
     }
