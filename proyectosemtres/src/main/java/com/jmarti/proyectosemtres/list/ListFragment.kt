@@ -11,6 +11,7 @@ import com.google.gson.Gson
 import com.jmarti.proyectosemtres.databinding.FragmentListBinding
 import com.jmarti.proyectosemtres.model.Pointinterest
 import com.jmarti.proyectosemtres.model.PointinterestItem
+import java.io.InputStream
 
 
 class ListFragment : Fragment() {
@@ -52,5 +53,7 @@ class ListFragment : Fragment() {
         val pointInterestsList = gson.fromJson(pointInterestsString, Pointinterest::class.java)
         return pointInterestsList
     }
+
+
 
 }
