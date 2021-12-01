@@ -30,6 +30,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         listPointInterests = loadMockPointInterestsFromJson()
         pointInterestsAdapter = PointInterestsAdapter(listPointInterests, onItemClicked = {onPointInterestClicked(it)})
 

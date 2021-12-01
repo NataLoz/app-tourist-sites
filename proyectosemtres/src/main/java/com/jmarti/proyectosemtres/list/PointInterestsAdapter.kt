@@ -1,5 +1,6 @@
 package com.jmarti.proyectosemtres.list
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,6 +36,7 @@ class PointInterestsAdapter(
         private var pictureImageView: ImageView = itemView.findViewById(R.id.picture_image_view)
 
         fun bind(pointinterest: PointinterestItem){
+            Log.d("nombre",pointinterest.name)
             nameTextView.text = pointinterest.name
             placeTextView.text = pointinterest.place
             Picasso.get().load(pointinterest.urlPicture).into(pictureImageView)
