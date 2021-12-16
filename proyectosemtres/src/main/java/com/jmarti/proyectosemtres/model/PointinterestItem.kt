@@ -22,5 +22,9 @@ data class PointinterestItem(
     @SerializedName("point")
     val point: String,
     @SerializedName("information")
-    val information: String
+    val information: String,
+    @SerializedName("latitude")
+    val latitude: Double,
+    @SerializedName("longitude")
+    val longitude: Double
 ) : Serializable

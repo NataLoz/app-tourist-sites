@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cristhian.moreno/Documents/Universidad/Mintic/Moviles/app-tourist-sites/proyectosemtres/src/main/res/drawable/ic_map.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/cristhian.moreno/Documents/Universidad/Mintic/Moviles/app-tourist-sites/proyectosemtres/src/main/res/layout/fragment_detail.xml" value="0.4" />
+        <entry key="..\:/Users/cristhian.moreno/Documents/Universidad/Mintic/Moviles/app-tourist-sites/proyectosemtres/src/main/res/layout/fragment_maps.xml" value="0.234375" />
+        <entry key="..\:/Users/cristhian.moreno/Documents/Universidad/Mintic/Moviles/app-tourist-sites/proyectosemtres/src/main/res/menu/overflow_menu.xml" value="0.234375" />
         <entry key="..\:/Users/fabia/Desktop/appv2/app/src/main/res/layout/item_ciudad.xml" value="0.1" />
         <entry key="..\:/Users/fabia/Desktop/appv2/proyectosemtres/src/main/res/layout/fragment_list.xml" value="0.1" />
         <entry key="..\:/Users/fabia/Desktop/appv2/proyectosemtres/src/main/res/xml/root_preferences.xml" value="0.1" />
